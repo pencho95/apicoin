@@ -74,7 +74,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "apicoin";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001923c029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101c8b0980de64837f06637c9f0637e463cb3e03ca50ccb1eb6b515574d26043e30";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001923c029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101d73f5d182f70c0831623e60bea41c50a18b889f4ee5fa2423166d4d075d2a248";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
