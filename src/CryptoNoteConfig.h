@@ -74,7 +74,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "apicoin";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001baad05029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121016a97fb89693a581ecc9185b4a8dbd7b83f788479928aed13bdf7ce973e8598ae";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001923c029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101c8b0980de64837f06637c9f0637e463cb3e03ca50ccb1eb6b515574d26043e30";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
@@ -106,7 +106,8 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "217fwshyl8by12yj
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-  "192.168.1.11:8080",
+  "192.168.1.11:12940",
+  "192.168.1.13:12940",
 };
 
 struct CheckpointData {
